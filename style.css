@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+
+  border: none;
+  text-transform: capitalize;
+  outline: none;
+}
+:root {
+  --primary-color: #7245f8;
+  --light-gray: #f8f8f8;
+}
+body {
+  background-color: var(--light-gray);
+}
+section {
+  padding: 4rem;
+}
+nav {
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  color: black;
+  font-size: 15px;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+nav ul li a:hover {
+  color: var(--primary-color);
+}
+.btn {
+  background-color: var(--primary-color);
+  padding: 1rem 2rem;
+  color: white;
+  font-weight: bold;
+  border: 1px solid var(--primary-color);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.btn:hover {
+  color: var(--primary-color);
+  background-color: transparent;
+}
+.discover {
+  display: flex;
+  height: 100vh;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(208, 238, 255));
+  position: relative;
+}
+.discover .left {
+  margin-top: 9rem;
+}
+.discover img {
+  position: absolute;
+  bottom: 1px;
+  right: 0px;
+}
+.para-blue {
+  font-size: 17px;
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+.discover h1 {
+  font-size: 70px;
+  margin: 2rem 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.discover button {
+  padding: 1.5rem 3.5rem;
+  text-transform: uppercase;
+}
+.para-gray {
+  color: rgb(67, 67, 67);
+  margin: 2rem 0;
+  font-size: 20px;
+}
+.services .wrapper {
+  display: flex;
+  background-color: var(--light-gray);
+  margin: 7rem 0;
+}
+.services .left,
+.services .right {
+  width: 50%;
+  text-align: left;
+}
+.services h1 {
+  font-size: 60px;
+  margin-top: 3rem;
+}
+.services a {
+  color: black;
+  text-decoration: underline;
+  margin-top: 3rem;
+}
+.services .cards {
+  display: flex;
+}
+.services .card {
+  background-color: white;
+  flex-basis: 33%;
+  padding: 3rem;
+  margin: 0 20px;
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+}
+.services .card:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+.services img {
+  padding: 2rem;
+  background-color: var(--light-gray);
+  border-radius: 50%;
+  margin: 2rem 0;
+}
+.about {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+}
+.about h1 {
+  font-size: 60px;
+  margin: 3rem 0;
+}
+.about img {
+  margin: 2rem;
+}
+.about button {
+  padding: 1.5rem 3.5rem;
+}
+.about .right {
+  margin-top: 7rem;
+}
+.feature {
+  position: relative;
+  height: 100vh;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(208, 238, 255));
+}
+.feature img {
+  position: absolute;
+  bottom: 1px;
+  right: 0px;
+}
+.feature button {
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.pricing p.center {
+  text-align: center;
+}
+.pricing .heading {
+  text-align: center;
+  margin: 2rem;
+  font-size: 50px;
+}
+.pricing .cards {
+  display: flex;
+  margin-left: 14% ;
+}
+.pricing .card {
+  background-color: white;
+  padding: 3rem;
+  text-align: center;
+  margin: 0 10px;
+}
+.pricing .card .title {
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+.pricing .price {
+  font-size: 30px;
+  margin: 1rem 0;
+}
+.pricing .price span {
+  font-size: 14px;
+  margin: 1rem 0;
+}
+.pricing ul li::before {
+  content: "✔️";
+  margin-right: 15px;
+  width: 30px;
+  height: 30px;
+  background: white;
+  line-height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  color: #824cf2;
+  border: 1px solid #e8e8e9;
+}
+.pricing button{
+  background-color:transparent;
+  padding: 1rem 2rem;
+  color: white;
+  font-weight: bold;
+  border: 1px solid var(--primary-color);
+  cursor: pointer;
+  transition: 0.2s;
+  margin: 2rem 0;
+  color: var(--primary-color);
+}
+.pricing button:hover{
+  background-color: var(--primary-color);
+  color: white;
+}
+footer {
+  padding: 4rem;
+  margin-top: 2rem;
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+footer p{
+  color: white;
+}
+footer span{
+  color: var(--light-gray);
+}
+footer ul {
+  display: flex;
+}
+footer ul li {
+  margin: 0 10px;
+}
